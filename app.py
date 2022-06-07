@@ -8,7 +8,7 @@ import streamlit as st
 
 
 st.title("Prediction Of Machine Failure")
-st.text("By Deepthi & Preethi")
+st.header("By Deepthi & Preethi")
 
 data = pd.read_csv('predictive_maintenance.csv')
 
