@@ -1,10 +1,5 @@
-# !pip install streamlit
-
 import pandas as pd
 import numpy as np
-# import seaborn as sns
-# import matplotlib.pyplot as plt
-# %matplotlib inline
 import io
 from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler
@@ -12,8 +7,8 @@ from sklearn.metrics import confusion_matrix
 import streamlit as st
 
 
-st.title("Failure Prediction App")
-
+st.title("Prediction Of Machine Failure")
+st.text("By Deepthi & Preethi")
 
 data = pd.read_csv('predictive_maintenance.csv')
 
@@ -47,7 +42,6 @@ lr.fit(X_train, y_train)
 print(lr.score(X_test, y_test))
 
 
-# Type = (st.number_input("Enter the Type of Machine"))
 TypeInput = st.selectbox("Select the Machine Type", ['M', 'L', 'H'])
 
 
