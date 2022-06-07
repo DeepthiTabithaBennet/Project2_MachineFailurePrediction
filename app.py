@@ -107,7 +107,7 @@ if (st.button("Submit")):
   if (outcome[0] == 1):
     st.error("Failure")
 
-  st.header("If any Failure occurs, chances are, the reason will be : ")
+  st.header("Probable cause of Failure : ")
 
   if (OutcomeType[0] == 0):
     st.info("Heat Dissipation Failure")
