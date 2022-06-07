@@ -126,3 +126,12 @@ if (st.button("Submit")):
 
   elif (OutcomeType[0] == 5):
     st.info("Tool Wear Failure")
+    
+    
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden; }
+        footer {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
