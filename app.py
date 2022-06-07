@@ -7,8 +7,9 @@ from sklearn.metrics import confusion_matrix
 import streamlit as st
 
 
-st.title("Prediction Of Machine Failure")
-st.header("By Deepthi & Preethi")
+st.title("Prediction  Of  Machine  Failure")
+st.header("By  Deepthi  &  Preethi")
+st.header("     ")
 
 data = pd.read_csv('predictive_maintenance.csv')
 
