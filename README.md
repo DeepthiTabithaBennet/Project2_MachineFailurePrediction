@@ -5,3 +5,5 @@
 ## Project2_MachineFailurePrediction
 
 ### In Collaboration with [`@PreethiSamanthaBennet`](https://github.com/PreethiSamanthaBennet) !
+
+### Demo : [Click Here!](https://share.streamlit.io/deepthitabithabennet/project2_machinefailureprediction/main/app.py)
